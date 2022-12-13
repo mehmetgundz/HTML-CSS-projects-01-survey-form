@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+form{
+    width: 500px;
+    height: 887px;
+    margin: 40px auto;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+}
+
+.container {
+    margin:30px auto;
+    /* padding: 20px; */
+    text-align: center;
+    width:1240px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.white{
+    color: white;
+}
+
+.red{
+    color: red;
+}
+
+.box {
+    width: 10px;
+}
+.input{
+    margin: 10px 0;
+    width: 420px;
+    height:60px;
+}
+
+span {
+    font-family: 'Bowlby One SC', serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 23px;
+}
+
+
+label{
+    font-size: 16px;
+}
+.button {
+    display: flex;
+    justify-content:center;
+}
+button{   
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 80px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+select{
+    margin: 10px 0;
+    width: 420px;
+    height:60px;
+}
+
+div {
+    margin: 20px 10px;
+}
+
+textarea {
+    margin: 10px 0;
+}
+
